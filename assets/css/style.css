@@ -38,6 +38,14 @@ body {
     padding-right: 15px;
 }
 
+.container .portfolioImage {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+
 /* Footer Styling */
 .footer{
     position: fixed;
