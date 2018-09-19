@@ -5,45 +5,7 @@ body {
     background-image: url("../images/halftone.png");
  }
 
- .topnav {
-    overflow: hidden;
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    background-color: #ffffff;
-    border-style: solid;
-    border-color: #dddddd;
-    width: auto;
-    padding-left: 15%;
-    padding-right: 15%;
- }
-
-.topnav a.fullname {
-    float: left;
-    background-color: #4aaaa5;
-    color: white;
-    font-weight: bold;
-    border-bottom-color: #4aaaa5;
-    border-top-color: #4aaaa5;
-    text-align: center;
-    font-size: 32px;
-}
-
-.topnav a {
-    float: right;
-    color: #cccccc;
-    text-align: center;
-    padding: 15px 15px;
-    font-size: 17px;
- }
-  
- .topnav a:hover {
-    background-color: #ffffff;
-    color: black;
- }
-  
- .topnav a.active {
-    background-color: #4aaaa5;
-    color: white;
- }
+/* About Me Container */
 
 .container {
     border-style: solid;
@@ -76,6 +38,7 @@ body {
     padding-right: 15px;
 }
 
+/* Footer Styling */
 .footer{
     position: fixed;
     background-color: #666666;
@@ -90,6 +53,7 @@ body {
     padding: 0px, 10px, 0px, 10px;
 }
 
+/* Separator styling */
 hr { 
     display: block;
     border-style: inset;

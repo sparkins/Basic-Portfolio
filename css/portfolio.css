@@ -1,0 +1,20 @@
+
+.portfolioContainer {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    background-color: #ffffff;
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+}
+
+.portfolioContainer .portfolioImage {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 150px;
+    height: 150px;
+}
