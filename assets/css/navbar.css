@@ -28,7 +28,7 @@
     font-size: 17px;
  }
   
- .topnav a:hover {
+ .topnav a.topMenu:hover {
     background-color: #ffffff;
     color: black;
  }
@@ -36,3 +36,9 @@
  .topnav a.active {
     background-color: #4aaaa5;
     color: white;
+ }
+
+ .topnav a.active:hover {
+    background-color: #4aaaa5;
+    color: black;
+ }

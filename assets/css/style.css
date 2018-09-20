@@ -12,16 +12,19 @@ body {
     border-color: #dddddd;
     border-width: 2px;
     background-color: #ffffff;
-    width: 70%;
+    width: 960px;
+    clear: both;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 10px;
 }
 
 .container a.header {
+    font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 32px;
     font-weight: bold; 
     color: #4aaaa5;
+    width: 960px;
     padding-left: 15px;
 }
 
@@ -41,9 +44,19 @@ body {
 .container .portfolioImage {
     float: left;
     padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     width: 150px;
     height: 150px;
+}
+
+.container #message {
+    text-align:justify;
+    vertical-align: top;
+}
+.container #submit:hover {
+    background-color: #ffffff;
+    color: black;
 }
 
 /* Footer Styling */
@@ -65,7 +78,8 @@ body {
 hr { 
     display: block;
     border-style: inset;
-    border-width: 1px;
-    border-color: #4aaaa5;
-    padding: 0px, 15px, 0px, 15px;
+    border-width: 0.5px;
+    border-color: rgb(202, 195, 195);
+    margin-left: 15px;
+    margin-right: 15px;
 } 
