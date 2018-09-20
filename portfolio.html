@@ -3,17 +3,21 @@
     <head>
         <meta charset="UTF-8">
 
-        <title>My Portfolio!</title>
-        <!-- Link to your external CSS -->
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
-        <link rel="shortcut icon" type="image/jpeg" href="assets/images/simon.jpeg">
+       <!-- Page Title -->
+       <title>My Portfolio!</title>
+
+       <!-- Link to your external CSS -->
+       <link rel="stylesheet" type="text/css" href="css/reset.css">
+       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+       <link rel="stylesheet" type="text/css" href="assets/css/navbar.css">
+
+       <!-- Create and display a favicon -->
+       <link rel="shortcut icon" type="image/jpeg" href="assets/images/Simon.jpeg"/>
+
     </head>
 
     <body>
-        <!--This the Navigation bar at the top of the page-->
+        <!--Display a Navigation bar at the top of the page-->
         <div class="topnav">
             <a class="fullname">Simon Parkinson</a>
             <a class="topMenu" href="contact.html">Contact</a>
@@ -22,22 +26,27 @@
         </div>
 
         <!--Create a container for the Portfolio element-->
-        <div class="container">
-            <a class="header">Portfolio</a>
-            <br>
-            <hr>
-            <img class="portfolioImage" src="assets/images/sports1.jpeg" alt="Cricket Image">
-            <img class="portfolioImage" src="assets/images/sports2.jpeg" alt="Surfing Image">
-            <img class="portfolioImage" src="assets/images/sports3.jpeg" alt="Cycling Image">
-            <img class="portfolioImage" src="assets/images/sports5.jpeg" alt="Motor Cross Image">
-            <img class="portfolioImage" src="assets/images/sports7.jpeg" alt="Swimming Image">
-            <img class="portfolioImage" src="assets/images/sports8.jpeg" alt="Martial Arts Image">
-            <img class="portfolioImage" src="assets/images/sports9.jpeg" alt="Track and Field Image">
-            <img class="portfolioImage" src="assets/images/sports10.jpeg" alt="Baseball Image">
+        <div class="contentContainer">
+            <div class="portfolioContainer">
+                <!-- Portfolio Header -->
+                <a class="header">Portfolio</a>
+                <br>
+                <!-- Display a separator between header and the images-->
+                <hr>
+                <!-- Portfolio placeholder images-->
+                <img class="portfolioImage" src="assets/images/sports1.jpeg" alt="Cricket Image">
+                <img class="portfolioImage" src="assets/images/sports2.jpeg" alt="Surfing Image">
+                <img class="portfolioImage" src="assets/images/sports3.jpeg" alt="Cycling Image">
+                <img class="portfolioImage" src="assets/images/sports5.jpeg" alt="Motor Cross Image">
+                <img class="portfolioImage" src="assets/images/sports7.jpeg" alt="Swimming Image">
+                <img class="portfolioImage" src="assets/images/sports8.jpeg" alt="Martial Arts Image">
+                <img class="portfolioImage" src="assets/images/sports9.jpeg" alt="Track and Field Image">
+                <img class="portfolioImage" src="assets/images/sports10.jpeg" alt="Baseball Image">
+            </div>
         </div>
 
     <footer>
-            <!--footer-->
+            <!--Display Footer-->
             <div class="footer">&copy;Copyright</div>
         </footer>  
     </body>

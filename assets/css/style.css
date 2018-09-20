@@ -7,7 +7,7 @@ body {
 
 /* About Me Container */
 
-.container {
+.contentContainer {
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
@@ -19,7 +19,12 @@ body {
     margin-top: 10px;
 }
 
-.container a.header {
+.contentContainer .portfolioContainer {
+
+    height: 400px;
+}
+
+.contentContainer a.header {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 32px;
     font-weight: bold; 
@@ -28,20 +33,21 @@ body {
     padding-left: 15px;
 }
 
-.container .floatImage {
+.contentContainer .floatImage {
     float:left;
     padding-left: 15px;
+    padding-right: 15px;
     padding-top: 15px;
     width: 100px; 
     height: 100px;
 }
 
-.container .myBlurb {
-    padding-left: 150px;
+.contentContainer .myBlurb {
+    padding-left: 15px;
     padding-right: 15px;
-}
+} 
 
-.container .portfolioImage {
+.contentContainer .portfolioImage {
     float: left;
     padding-left: 10px;
     padding-right: 10px;
@@ -50,12 +56,45 @@ body {
     height: 150px;
 }
 
-.container #message {
-    text-align:justify;
-    vertical-align: top;
+/* Styling for the Contacts Page */
+.contentContainer #name {
+    border-style: solid;
+    border-color: #ede6e6;
+    border-width: 0.5px;
+    margin-top: 5px;
+    margin-left:10px; 
+    width: 60%; 
+    height:20px;
 }
-.container #submit:hover {
-    background-color: #ffffff;
+
+.contentContainer #email {
+    border-style: solid;
+    border-color: #ede6e6;
+    border-width: 0.5px;
+    margin-top: 5px;
+    margin-left:10px; 
+    width: 60%; 
+    height: 20px;
+}
+
+.contentContainer #message {
+    border-style: solid;
+    border-color: #ede6e6;
+    border-width: 0.5px;
+    margin-top: 5px;
+    margin-left:10px; 
+    width:60%; 
+    height:100px;
+}
+
+.contentContainer #submit {
+    background-color:  #4aaaa5; 
+    color: white; 
+    margin: 10px; 
+    font-size: 25px;
+}
+
+.contentContainer #submit:hover {
     color: black;
 }
 
@@ -71,7 +110,6 @@ body {
     bottom: 10px;
     width: 100%;
     height: 5%;
-    padding: 0px, 10px, 0px, 10px;
 }
 
 /* Separator styling */
@@ -79,7 +117,7 @@ hr {
     display: block;
     border-style: inset;
     border-width: 0.5px;
-    border-color: rgb(202, 195, 195);
+    border-color: #cec6c6;
     margin-left: 15px;
     margin-right: 15px;
 } 
